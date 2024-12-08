@@ -1,6 +1,7 @@
 <template>
   <Toast />
   <body>
+    <h1>Hello</h1>
     <div class="flex items-start space-x-4">
       <!-- Left Section: Thumbnails with Navigation -->
       <div class="relative flex flex-col items-center w-1/6">
