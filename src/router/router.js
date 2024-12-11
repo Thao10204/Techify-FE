@@ -12,6 +12,12 @@ const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
     routes: [
         {
+            path: "/user-profile",
+            name: "UserProfile",
+            component: () => import("@/views/UserProfile.vue"),
+        },
+
+        {
             path: "/",
             name: "home",
             component: HomeView,
